@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ALTERING_CAVE",
-  "name": "AlteringCave",
-  "layout": "LAYOUT_ALTERING_CAVE",
-  "music": "MUS_RG_SEVII_CAVE",
-  "region_map_section": "MAPSEC_ALTERING_CAVE",
+  "id": "MAP_VENICE_CAVE",
+  "name": "VeniceCave",
+  "layout": "LAYOUT_VENICE_CAVE",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_ROUTE_103",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -18,11 +18,11 @@
   ],
   "warp_events": [
     {
-      "x": 18,
-      "y": 22,
+      "x": 3,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_ROUTE103",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
