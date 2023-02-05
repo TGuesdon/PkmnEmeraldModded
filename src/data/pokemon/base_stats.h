@@ -7529,7 +7529,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_SPEED, ABILITY_SPEED_BOOST, ABILITY_QUICK_FEET},
+        .abilities = {ABILITY_PICKUP, ABILITY_SPEED_BOOST, ABILITY_QUICK_FEET},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },

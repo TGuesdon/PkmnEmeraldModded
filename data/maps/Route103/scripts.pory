@@ -355,3 +355,8 @@ Route103_Text_RouteSign:
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
 `
+
+script QuagsireCave_ItemScript_Pokeball {
+	finditem(ITEM_POKE_BALL, 5)
+	end
+}
