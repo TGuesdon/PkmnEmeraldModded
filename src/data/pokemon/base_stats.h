@@ -7460,12 +7460,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_MIGHTYENA] =
     {
-        .baseHP        = 70,
+        .baseHP        = 80,
         .baseAttack    = 95,
         .baseDefense   = 70,
-        .baseSpeed     = 80,
+        .baseSpeed     = 85,
         .baseSpAttack  = 60,
-        .baseSpDefense = 60,
+        .baseSpDefense = 65,
         .type1 = TYPE_DARK,
         .type2 = TYPE_DARK,
         .catchRate = 127,
@@ -7485,7 +7485,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_ZIGZAGOON] =
     {
         .baseHP        = 38,
-        .baseAttack    = 30,
+        .baseAttack    = 45,
         .baseDefense   = 41,
         .baseSpeed     = 60,
         .baseSpAttack  = 30,
@@ -7503,7 +7503,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_PICKUP, ABILITY_GLUTTONY, ABILITY_QUICK_FEET},
+        .abilities = {ABILITY_PICKUP, ABILITY_SPEED_BOOST, ABILITY_QUICK_FEET},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -7511,7 +7511,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LINOONE] =
     {
         .baseHP        = 78,
-        .baseAttack    = 70,
+        .baseAttack    = 95,
         .baseDefense   = 61,
         .baseSpeed     = 100,
         .baseSpAttack  = 50,
@@ -7529,7 +7529,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_PICKUP, ABILITY_GLUTTONY, ABILITY_QUICK_FEET},
+        .abilities = {ABILITY_SPEED, ABILITY_SPEED_BOOST, ABILITY_QUICK_FEET},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
