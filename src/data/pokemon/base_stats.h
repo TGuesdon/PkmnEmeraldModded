@@ -17366,7 +17366,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_TALONFLAME] =
     {
         .baseHP        = 78,
-        .baseAttack    = 81,
+        .baseAttack    = 88,
         .baseDefense   = 71,
         .baseSpeed     = 126,
         .baseSpAttack  = 74,
