@@ -1163,7 +1163,7 @@ Cry_Wooper::
 	.incbin "sound/direct_sound_samples/cries/wooper.bin"
 
 	.align 2
-Cry_Quagsire::
+Cry_DjQuagsire::
 	.incbin "sound/direct_sound_samples/cries/quagsire.bin"
 
 	.align 2
@@ -4016,6 +4016,10 @@ Cry_Enamorus::
 	.incbin "sound/direct_sound_samples/cries/enamorus.bin"
 */
 .endif
+
+	.align 2
+Cry_Quagsire::
+	.incbin "sound/direct_sound_samples/cries/quagsire.bin"
 
 	.align 2
 Cry_VenusaurMega::

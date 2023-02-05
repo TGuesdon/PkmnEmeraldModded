@@ -1335,4 +1335,5 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Enamorus
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusLevelUpLearnset,
 #endif
+    [SPECIES_DJQUAGSIRE] = sDjQuagsireLevelUpLearnset,
 };

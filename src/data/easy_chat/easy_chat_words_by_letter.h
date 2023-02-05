@@ -420,6 +420,7 @@ const u16 gEasyChatWordsByLetter_D[] = {
     EC_POKEMON(DUSKULL),
     EC_POKEMON(DUSTOX),
     EC_MOVE2(DYNAMIC_PUNCH),
+    EC_POKEMON_NATIONAL(DJQUAGSIRE),
 };
 
 const u16 gEasyChatWordsByLetter_E[] = {

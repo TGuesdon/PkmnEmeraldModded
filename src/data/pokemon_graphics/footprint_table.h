@@ -910,4 +910,5 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_CALYREX] = gMonFootprint_Calyrex,
 #endif
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
+    [SPECIES_DJQUAGSIRE] = gMonFootprint_DjQuagsire,
 };

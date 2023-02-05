@@ -1295,6 +1295,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_ENAMORUS_THERIAN] = gMonIcon_EnamorusTherian,
 #endif
     [SPECIES_EGG] = gMonIcon_Egg,
+    [SPECIES_DJQUAGSIRE] = gMonIcon_DjQuagsire,
 };
 
 const u8 *const gMonIconTableFemale[] =
@@ -2566,6 +2567,7 @@ const u8 gMonIconPaletteIndicesFemale[] =
 #if P_GEN_8_POKEMON == TRUE
     [SPECIES_BASCULEGION] = 0,
 #endif
+    [SPECIES_DJQUAGSIRE] = 0,
 };
 
 const struct SpritePalette gMonIconPaletteTable[] =

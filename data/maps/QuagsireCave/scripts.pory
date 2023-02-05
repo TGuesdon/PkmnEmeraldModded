@@ -4,13 +4,24 @@ QuagsireCave_MapScripts::
 `
 script QuagsireCave_EventScript_Trainer1 {
 	trainerBattle_single(TRAINER_QUAGSIRE_CAVE, Trainer1_Intro, Trainer1_Outro)
+	msgbox(Trainer1_Postbattle, MSGBOX_AUTOCLOSE)
+	waitmessage
 	end
 }
 
 text Trainer1_Intro {
-	"I just caught a pokemon holding \n a strange CD"
+	"I just caught a pokemon holding \na strange CD"
 }
 
 text Trainer1_Outro {
-	"Maybe the strange CD could \n make him evolve ?"
+	"Maybe the strange CD could \nmake him evolve ?"
+}
+
+text Trainer1_Postbattle{
+	"Was it WOOPER ?"
+}
+
+script QuagsireCave_ItemScript_DubiousDisc {
+	finditem(ITEM_DUBIOUS_DISC)
+	end
 }

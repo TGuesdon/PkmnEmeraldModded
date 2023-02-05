@@ -26839,4 +26839,28 @@ const struct BaseStats gBaseStats[] =
         .flags = SPECIES_FLAG_LEGENDARY,
     },
 #endif
+
+    [SPECIES_DJQUAGSIRE] =
+    {
+        .baseHP        = 100,
+        .baseAttack    = 85,
+        .baseDefense   = 90,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 95,
+        .baseSpDefense = 75,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_GROUND,
+        .catchRate = 90,
+        .expYield = 151,
+        .evYield_HP        = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup2 = EGG_GROUP_FIELD,
+        .abilities = {ABILITY_PUNK_ROCK, ABILITY_WATER_ABSORB, ABILITY_UNAWARE},
+        .bodyColor = BODY_COLOR_BLUE,
+        .noFlip = FALSE,
+    },
 };

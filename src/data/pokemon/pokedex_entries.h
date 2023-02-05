@@ -10881,4 +10881,15 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 #endif
+    [NATIONAL_DEX_DJQUAGSIRE] =
+    {
+        .categoryName = _("Water Fish"),
+        .height = 14,
+        .weight = 750,
+        .description = gDjQuagsirePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 4,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

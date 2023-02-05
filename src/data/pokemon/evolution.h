@@ -120,7 +120,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_MOVE_TYPE, TYPE_FAIRY, SPECIES_SYLVEON}
                                     #endif
                                        },
-    [SPECIES_PORYGON]               = {{EVO_TRADE_ITEM, ITEM_UPGRADE, SPECIES_PORYGON2}},
+    [SPECIES_PORYGON]               = {{EVO_ITEM, ITEM_UPGRADE, SPECIES_PORYGON2}},
     [SPECIES_OMANYTE]               = {{EVO_LEVEL, 40, SPECIES_OMASTAR}},
     [SPECIES_KABUTO]                = {{EVO_LEVEL, 40, SPECIES_KABUTOPS}},
     [SPECIES_AERODACTYL]            = {{EVO_MEGA_EVOLUTION, ITEM_AERODACTYLITE, SPECIES_AERODACTYL_MEGA}},
@@ -159,6 +159,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_YANMA]                 = {{EVO_MOVE, MOVE_ANCIENT_POWER, SPECIES_YANMEGA}},
 #endif
     [SPECIES_WOOPER]                = {{EVO_LEVEL, 20, SPECIES_QUAGSIRE}},
+    [SPECIES_QUAGSIRE]              = {{EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_DJQUAGSIRE}},
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_MURKROW]               = {{EVO_ITEM, ITEM_DUSK_STONE, SPECIES_HONCHKROW}},
     [SPECIES_MISDREAVUS]            = {{EVO_ITEM, ITEM_DUSK_STONE, SPECIES_MISMAGIUS}},
@@ -185,7 +186,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_HOUNDOOM]              = {{EVO_MEGA_EVOLUTION, ITEM_HOUNDOOMINITE, SPECIES_HOUNDOOM_MEGA}},
     [SPECIES_PHANPY]                = {{EVO_LEVEL, 25, SPECIES_DONPHAN}},
 #if P_GEN_4_POKEMON == TRUE
-    [SPECIES_PORYGON2]              = {{EVO_TRADE_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}},
+    [SPECIES_PORYGON2]              = {{EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}},
 #endif
     [SPECIES_TYROGUE]               = {{EVO_LEVEL_ATK_LT_DEF, 20, SPECIES_HITMONCHAN},
                                        {EVO_LEVEL_ATK_GT_DEF, 20, SPECIES_HITMONLEE},

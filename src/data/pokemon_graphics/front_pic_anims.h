@@ -10498,6 +10498,13 @@ static const union AnimCmd sAnim_ENAMORUS_THERIAN_1[] =
 };
 #endif
 
+static const union AnimCmd sAnim_DJQUAGSIRE_1[] =
+{
+    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] =
 {
     sAnim_GeneralFrame0,
@@ -17129,6 +17136,11 @@ static const union AnimCmd *const sAnims_ENAMORUS_THERIAN[] =
 };
 #endif
 
+static const union AnimCmd *const sAnims_DJQUAGSIRE[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DJQUAGSIRE_1,
+};
+
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
 #define ANIM_CMD_FULL(name, anims) [SPECIES_##name] = anims
 
@@ -18403,6 +18415,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(ENAMORUS_THERIAN),
 #endif
     ANIM_CMD(EGG),
+    ANIM_CMD(DJQUAGSIRE),
 };
 
 #undef ANIM_CMD

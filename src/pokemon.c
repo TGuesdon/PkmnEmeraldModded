@@ -1254,6 +1254,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(OVERQWIL),
     SPECIES_TO_NATIONAL(ENAMORUS),
 #endif
+    SPECIES_TO_NATIONAL(DJQUAGSIRE),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA - 1] = NATIONAL_DEX_VENUSAUR,
@@ -3038,6 +3039,8 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_NECROZMA_DAWN_WINGS - 1]       = ANIM_V_SQUISH_AND_BOUNCE, //Todo
     [SPECIES_NECROZMA_ULTRA - 1]            = ANIM_V_SQUISH_AND_BOUNCE, //Todo
     [SPECIES_MAGEARNA_ORIGINAL_COLOR - 1]   = ANIM_H_SLIDE_SLOW,
+    // Custom
+    [SPECIES_DJQUAGSIRE - 1]                = ANIM_H_STRETCH,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

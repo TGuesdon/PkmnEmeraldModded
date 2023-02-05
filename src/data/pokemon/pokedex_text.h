@@ -5399,3 +5399,6 @@ const u8 gEnamorusPokedexText[] = _(
     "Pokémon's love gives rise to the\n"
     "budding of fresh life across the land.");
 #endif
+const u8 gDjQuagsirePokedexText[] = _(
+    "A Dj Quagsire hunts by spitting fire \n"
+    "on the mic. No cap.");

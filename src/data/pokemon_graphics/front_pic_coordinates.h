@@ -1340,5 +1340,6 @@ const struct MonCoords gMonFrontPicCoords[] =
 #endif
     // Egg         
     [SPECIES_EGG]                          = { .size = MON_COORDS_SIZE(24, 24), .y_offset = 20 },
-
+    // Custom
+    [SPECIES_DJQUAGSIRE]                   = { .size = MON_COORDS_SIZE(64, 56), .y_offset =  5 },
 };

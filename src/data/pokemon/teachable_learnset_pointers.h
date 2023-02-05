@@ -1335,4 +1335,5 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     // Enamorus
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusTeachableLearnset,
 #endif
+    [SPECIES_DJQUAGSIRE] = sDjQuagsireTeachableLearnset,
 };
