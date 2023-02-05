@@ -1,7 +1,7 @@
 {
-  "id": "MAP_VENICE_CAVE",
-  "name": "VeniceCave",
-  "layout": "LAYOUT_VENICE_CAVE",
+  "id": "MAP_QUAGSIRE_CAVE",
+  "name": "QuagsireCave",
+  "layout": "LAYOUT_QUAGSIRE_CAVE",
   "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_ROUTE_103",
   "requires_flash": false,
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "NULL",
+      "script": "QuagsireCave_EventScript_Trainer1",
       "flag": "FLAG_TRAINER_CUSTOM1"
     }
   ],

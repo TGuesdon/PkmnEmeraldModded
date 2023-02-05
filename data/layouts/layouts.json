@@ -4412,14 +4412,14 @@
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
     },
     {
-      "id": "LAYOUT_VENICE_CAVE",
-      "name": "VeniceCave_Layout",
+      "id": "LAYOUT_QUAGSIRE_CAVE",
+      "name": "QuagsireCave_Layout",
       "width": 32,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
-      "border_filepath": "data/layouts/VeniceCave/border.bin",
-      "blockdata_filepath": "data/layouts/VeniceCave/map.bin"
+      "border_filepath": "data/layouts/QuagsireCave/border.bin",
+      "blockdata_filepath": "data/layouts/QuagsireCave/map.bin"
     }
   ]
 }

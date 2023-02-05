@@ -12434,3 +12434,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+// Custom trainers
+static const struct TrainerMonNoItemDefaultMoves sParty_QuagsireCaveGuitarist[] = {
+    {
+    .iv = 40,
+    .lvl = 3,
+    .species = SPECIES_WOOBAT,
+    },
+    {
+    .iv = 140,
+    .lvl = 4,
+    .species = SPECIES_WOOPER,
+    }
+};

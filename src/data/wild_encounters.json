@@ -11558,8 +11558,8 @@
           }
         },
         {
-          "map": "MAP_VENICE_CAVE",
-          "base_label": "gVeniceCave0",
+          "map": "MAP_QUAGSIRE_CAVE",
+          "base_label": "gQuagsireCave0",
           "land_mons": {
             "encounter_rate": 10,
             "mons": [

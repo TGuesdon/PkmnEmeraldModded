@@ -1,0 +1,16 @@
+raw `
+QuagsireCave_MapScripts::
+	.byte 0
+`
+script QuagsireCave_EventScript_Trainer1 {
+	trainerBattle_single(TRAINER_QUAGSIRE_CAVE, Trainer1_Intro, Trainer1_Outro)
+	end
+}
+
+text Trainer1_Intro {
+	"I just caught a pokemon holding \n a strange CD"
+}
+
+text Trainer1_Outro {
+	"Maybe the strange CD could \n make him evolve ?"
+}
