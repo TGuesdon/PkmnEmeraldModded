@@ -25214,12 +25214,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_QWILFISH_HISUIAN] =
     {
-        .baseHP        = 65,
+        .baseHP        = 105,
         .baseAttack    = 95,
-        .baseDefense   = 85,
-        .baseSpeed     = 85,
+        .baseDefense   = 95,
+        .baseSpeed     = 75,
         .baseSpAttack  = 55,
-        .baseSpDefense = 55,
+        .baseSpDefense = 85,
         .type1 = TYPE_DARK,
         .type2 = TYPE_POISON,
         .catchRate = 45,
