@@ -4218,6 +4218,7 @@ static const struct LevelUpMove sQwilfishLevelUpLearnset[] = {
     LEVEL_UP_MOVE(53, MOVE_DESTINY_BOND),
     LEVEL_UP_MOVE(57, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(60, MOVE_FELL_STINGER),
+    LEVEL_UP_MOVE(68, MOVE_EXPLOSION),
     LEVEL_UP_END
 };
 

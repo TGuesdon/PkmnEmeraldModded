@@ -6172,9 +6172,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_QWILFISH] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 95,
-        .baseSpeed     = 85,
+        .baseHP        = 70,
+        .baseAttack    = 110,
+        .baseSpeed     = 95,
         .baseSpAttack  = 55,
         .baseSpDefense = 55,
         #if P_UPDATED_STATS >= GEN_7
