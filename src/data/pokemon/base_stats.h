@@ -5044,11 +5044,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LEDYBA] =
     {
         .baseHP        = 40,
-        .baseAttack    = 20,
+        .baseAttack    = 65,
         .baseDefense   = 30,
         .baseSpeed     = 55,
         .baseSpAttack  = 40,
-        .baseSpDefense = 80,
+        .baseSpDefense = 45,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
         .catchRate = 255,
@@ -5060,19 +5060,19 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SWARM, ABILITY_EARLY_BIRD, ABILITY_RATTLED},
+        .abilities = {ABILITY_RATTLED, ABILITY_EARLY_BIRD, ABILITY_SWARM},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
     [SPECIES_LEDIAN] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 35,
+        .baseHP        = 68,
+        .baseAttack    = 105,
         .baseDefense   = 50,
-        .baseSpeed     = 85,
+        .baseSpeed     = 95,
         .baseSpAttack  = 55,
-        .baseSpDefense = 110,
+        .baseSpDefense = 75,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
         .catchRate = 90,
@@ -5084,7 +5084,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SWARM, ABILITY_EARLY_BIRD, ABILITY_IRON_FIST},
+        .abilities = {ABILITY_IRON_FIST, ABILITY_EARLY_BIRD, ABILITY_IRON_SWARM},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
@@ -5725,9 +5725,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SUNFLORA] =
     {
-        .baseHP        = 75,
+        .baseHP        = 93,
         .baseAttack    = 75,
-        .baseDefense   = 55,
+        .baseDefense   = 78,
         .baseSpeed     = 30,
         .baseSpAttack  = 105,
         .baseSpDefense = 85,
