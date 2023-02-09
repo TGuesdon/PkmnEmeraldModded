@@ -2455,13 +2455,13 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_POLIWRATH] =
     {
-        .baseHP        = 90,
+        .baseHP        = 105,
         .baseDefense   = 95,
-        .baseSpeed     = 70,
+        .baseSpeed     = 74,
         .baseSpAttack  = 70,
-        .baseSpDefense = 90,
+        .baseSpDefense = 97,
         #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 95,
+            .baseAttack    = 99,
         #else
             .baseAttack    = 85,
         #endif
