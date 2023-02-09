@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/QuagsireCave/border.bin",
       "blockdata_filepath": "data/layouts/QuagsireCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_BEACH",
+      "name": "PetalburgBeach_Layout",
+      "width": 32,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PetalburgBeach/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgBeach/map.bin"
     }
   ]
 }

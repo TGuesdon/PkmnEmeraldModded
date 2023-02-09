@@ -57,6 +57,7 @@ static const u8 LandmarkName_MirageTower[] = _("MIRAGE TOWER");
 static const u8 LandmarkName_AlteringCave[] = _("ALTERING CAVE");
 static const u8 LandmarkName_DesertUnderpass[] = _("DESERT UNDERPASS");
 static const u8 LandmarkName_TrainerHill[] = _("TRAINER HILL");
+static const u8 LandmarkName_PetalburgBeach[] = _("PETALBURG BEACH");
 
 static const struct Landmark Landmark_FlowerShop = {LandmarkName_FlowerShop, FLAG_LANDMARK_FLOWER_SHOP};
 static const struct Landmark Landmark_PetalburgWoods = {LandmarkName_PetalburgWoods, -1};
@@ -99,6 +100,7 @@ static const struct Landmark Landmark_MirageTower = {LandmarkName_MirageTower, F
 static const struct Landmark Landmark_AlteringCave = {LandmarkName_AlteringCave, FLAG_LANDMARK_ALTERING_CAVE};
 static const struct Landmark Landmark_DesertUnderpass = {LandmarkName_DesertUnderpass, FLAG_LANDMARK_DESERT_UNDERPASS};
 static const struct Landmark Landmark_TrainerHill = {LandmarkName_TrainerHill, FLAG_LANDMARK_TRAINER_HILL};
+static const struct Landmark Landmark_PetalburgBeach = {LandmarkName_PetalburgBeach, FLAG_LANDMARK_PETALBURG_BEACH};
 
 static const struct Landmark *const Landmarks_Route103_2[]  =
 {
@@ -336,6 +338,12 @@ static const struct Landmark *const Landmarks_MtChimney_2[]  =
     NULL,
 };
 
+static const struct Landmark *const Landmarks_PetalburgBeach[]  =
+{
+    &Landmark_PetalburgBeach,
+    NULL,
+};
+
 static const struct LandmarkList sLandmarkLists[] =
 {
     {MAPSEC_ROUTE_103, 2, Landmarks_Route103_2},
@@ -384,6 +392,7 @@ static const struct LandmarkList sLandmarkLists[] =
     {MAPSEC_ROUTE_134, 1, Landmarks_OceanCurrent},
     {MAPSEC_ROUTE_134, 2, Landmarks_Route134_2},
     {MAPSEC_MT_CHIMNEY, 2, Landmarks_MtChimney_2},
+    {MAPSEC_PETALBURG_BEACH, 0, Landmarks_PetalburgBeach},
     {MAPSEC_NONE, 0, NULL},
 };
 
