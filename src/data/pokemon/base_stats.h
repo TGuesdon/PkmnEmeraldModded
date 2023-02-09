@@ -4943,7 +4943,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SENTRET] =
     {
-        .baseHP        = 35,
+        .baseHP        = 45,
         .baseAttack    = 46,
         .baseDefense   = 34,
         .baseSpeed     = 20,
@@ -4960,7 +4960,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_KEEN_EYE, ABILITY_FRISK},
+        .abilities = {ABILITY_HUGE_POWER, ABILITY_NONE, ABILITY_FRISK},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -4968,11 +4968,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_FURRET] =
     {
         .baseHP        = 85,
-        .baseAttack    = 76,
+        .baseAttack    = 83,
         .baseDefense   = 64,
-        .baseSpeed     = 90,
+        .baseSpeed     = 93,
         .baseSpAttack  = 45,
-        .baseSpDefense = 55,
+        .baseSpDefense = 64,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 90,
@@ -4984,7 +4984,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_RUN_AWAY, ABILITY_KEEN_EYE, ABILITY_FRISK},
+        .abilities = {ABILITY_HUGE_POWER, ABILITY_NONE, ABILITY_FRISK},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
