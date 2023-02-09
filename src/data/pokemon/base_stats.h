@@ -17964,7 +17964,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 53,
         .baseDefense   = 62,
         .baseSpeed     = 44,
-        .baseSpAttack  = 58,
+        .baseSpAttack  = 62,
         .baseSpDefense = 63,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
@@ -17984,12 +17984,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CLAWITZER] =
     {
-        .baseHP        = 71,
+        .baseHP        = 89,
         .baseAttack    = 73,
-        .baseDefense   = 88,
+        .baseDefense   = 95,
         .baseSpeed     = 59,
         .baseSpAttack  = 120,
-        .baseSpDefense = 89,
+        .baseSpDefense = 94,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 55,
