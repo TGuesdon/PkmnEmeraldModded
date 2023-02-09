@@ -3871,7 +3871,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GOLDEEN] =
     {
-        .baseHP        = 45,
+        .baseHP        = 55,
         .baseAttack    = 67,
         .baseDefense   = 60,
         .baseSpeed     = 63,
@@ -3896,12 +3896,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SEAKING] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 92,
-        .baseDefense   = 65,
-        .baseSpeed     = 68,
+        .baseHP        = 84,
+        .baseAttack    = 112,
+        .baseDefense   = 72,
+        .baseSpeed     = 88,
         .baseSpAttack  = 65,
-        .baseSpDefense = 80,
+        .baseSpDefense = 82,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 60,
