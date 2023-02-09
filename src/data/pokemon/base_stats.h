@@ -14833,20 +14833,20 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_MINERAL,
-        .abilities = {ABILITY_STURDY, ABILITY_SHELL_ARMOR, ABILITY_WEAK_ARMOR},
+        .abilities = {ABILITY_STURDY, ABILITY_WEAK_ARMOR, ABILITY_SHELL_ARMOR},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
     [SPECIES_CRUSTLE] =
     {
-        .baseHP        = 70,
-        .baseDefense   = 125,
-        .baseSpeed     = 45,
+        .baseHP        = 90,
+        .baseDefense   = 128,
+        .baseSpeed     = 49,
         .baseSpAttack  = 65,
-        .baseSpDefense = 75,
+        .baseSpDefense = 78,
         #if P_UPDATED_STATS >= GEN_7
-            .baseAttack    = 105,
+            .baseAttack    = 107,
         #else
             .baseAttack    = 95,
         #endif
@@ -14862,7 +14862,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_MINERAL,
-        .abilities = {ABILITY_STURDY, ABILITY_SHELL_ARMOR, ABILITY_WEAK_ARMOR},
+        .abilities = {ABILITY_STURDY, ABILITY_WEAK_ARMOR, ABILITY_SHELL_ARMOR},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
