@@ -11,3 +11,22 @@ PetalburgBeach_Entrance_OnTransition:
 	getplayerxy VAR_TEMP_D, VAR_RESULT
 	end
 `
+
+script PetalburgBeach_EventScript_Trainer2 {
+	trainerBattle_single(TRAINER_PETALBURG_BEACH, Trainer2_Intro, Trainer2_Outro)
+	msgbox(Trainer2_Postbattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+
+text Trainer2_Intro {
+	"I am way too strong for you"
+}
+
+text Trainer2_Outro {
+	"Ok maybe not"
+}
+
+text Trainer2_Postbattle{
+	"My pokemon seems WAY stronger \nthan before"
+}

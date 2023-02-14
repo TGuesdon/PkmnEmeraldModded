@@ -14,23 +14,40 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE107",
+      "map": "MAP_ROUTE106",
       "offset": 0,
       "direction": "dive"
     },
     {
       "map": "MAP_PETALBURG_CITY",
-      "offset": 2,
+      "offset": 4,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_PETALBURG_CITY",
+      "offset": 4,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE106",
-      "offset": -41,
+      "offset": -39,
       "direction": "down"
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "x": 10,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "PetalburgBeach_EventScript_Trainer2",
+      "flag": "FLAG_TRAINER_CUSTOM2"
+    }
   ],
   "warp_events": [
 

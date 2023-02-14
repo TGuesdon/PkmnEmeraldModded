@@ -42,7 +42,7 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 
 #define FLAG_TRAINER_CUSTOM1    0x20 // Flag for trainer in route 103 cave with axoloto
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
+#define FLAG_TRAINER_CUSTOM2    0x21 // Unused Flag
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag

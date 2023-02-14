@@ -12463,3 +12463,16 @@ static const struct TrainerMonNoItemDefaultMoves sParty_QuagsireCaveGuitarist[] 
     .species = SPECIES_WOOPER,
     }
 };
+
+static const struct TrainerMonNoItemDefaultMoves sParty_PetalburgBeachBlackBelt[] = {
+    {
+    .iv = 40,
+    .lvl = 8,
+    .species = SPECIES_LITLEO,
+    },
+    {
+    .iv = 140,
+    .lvl = 5,
+    .species = SPECIES_PIDGEY,
+    }
+};
