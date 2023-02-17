@@ -18983,11 +18983,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GRUBBIN] =
     {
-        .baseHP        = 47,
+        .baseHP        = 49,
         .baseAttack    = 62,
         .baseDefense   = 45,
         .baseSpeed     = 46,
-        .baseSpAttack  = 55,
+        .baseSpAttack  = 58,
         .baseSpDefense = 45,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
@@ -19007,11 +19007,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CHARJABUG] =
     {
-        .baseHP        = 57,
+        .baseHP        = 62,
         .baseAttack    = 82,
         .baseDefense   = 95,
         .baseSpeed     = 36,
-        .baseSpAttack  = 55,
+        .baseSpAttack  = 68,
         .baseSpDefense = 75,
         .type1 = TYPE_BUG,
         .type2 = TYPE_ELECTRIC,
@@ -19032,11 +19032,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VIKAVOLT] =
     {
-        .baseHP        = 77,
+        .baseHP        = 67,
         .baseAttack    = 70,
         .baseDefense   = 90,
-        .baseSpeed     = 43,
-        .baseSpAttack  = 145,
+        .baseSpeed     = 115,
+        .baseSpAttack  = 125,
         .baseSpDefense = 75,
         .type1 = TYPE_BUG,
         .type2 = TYPE_ELECTRIC,
