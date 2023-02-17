@@ -5520,7 +5520,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_AZUMARILL] =
     {
         .baseHP        = 100,
-        .baseAttack    = 50,
+        .baseAttack    = 58,
         .baseDefense   = 80,
         .baseSpeed     = 50,
         .baseSpDefense = 80,
