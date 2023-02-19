@@ -12761,11 +12761,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PROBOPASS] =
     {
-        .baseHP        = 60,
+        .baseHP        = 80,
         .baseAttack    = 55,
         .baseDefense   = 145,
         .baseSpeed     = 40,
-        .baseSpAttack  = 75,
+        .baseSpAttack  = 79,
         .baseSpDefense = 150,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_STEEL,
