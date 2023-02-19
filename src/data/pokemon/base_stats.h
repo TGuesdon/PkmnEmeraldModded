@@ -21881,12 +21881,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PERRSERKER] =
     {
-        .baseHP        = 70,
+        .baseHP        = 75,
         .baseAttack    = 110,
         .baseDefense   = 100,
-        .baseSpeed     = 50,
+        .baseSpeed     = 75,
         .baseSpAttack  = 50,
-        .baseSpDefense = 60,
+        .baseSpDefense = 78,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,
         .catchRate = 90,
