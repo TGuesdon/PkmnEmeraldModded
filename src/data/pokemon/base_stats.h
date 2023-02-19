@@ -5998,7 +5998,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 90,
         .baseSpeed     = 15,
         .baseSpAttack  = 35,
-        .baseSpDefense = 35,
+        .baseSpDefense = 45,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .catchRate = 190,
@@ -6017,12 +6017,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_FORRETRESS] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 90,
+        .baseHP        = 80,
+        .baseAttack    = 95,
         .baseDefense   = 140,
         .baseSpeed     = 40,
         .baseSpAttack  = 60,
-        .baseSpDefense = 60,
+        .baseSpDefense = 96,
         .type1 = TYPE_BUG,
         .type2 = TYPE_STEEL,
         .catchRate = 75,
@@ -8101,7 +8101,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BRELOOM] =
     {
-        .baseHP        = 60,
+        .baseHP        = 75,
         .baseAttack    = 130,
         .baseDefense   = 80,
         .baseSpeed     = 70,
