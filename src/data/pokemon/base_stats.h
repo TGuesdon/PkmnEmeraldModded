@@ -17864,7 +17864,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BINACLE] =
     {
-        .baseHP        = 42,
+        .baseHP        = 52,
         .baseAttack    = 52,
         .baseDefense   = 67,
         .baseSpeed     = 50,
@@ -17888,12 +17888,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BARBARACLE] =
     {
-        .baseHP        = 72,
-        .baseAttack    = 105,
+        .baseHP        = 85,
+        .baseAttack    = 108,
         .baseDefense   = 115,
         .baseSpeed     = 68,
         .baseSpAttack  = 54,
-        .baseSpDefense = 86,
+        .baseSpDefense = 89,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_WATER,
         .catchRate = 45,

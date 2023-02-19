@@ -4266,7 +4266,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
     .species = SPECIES_DWEBBLE,
     },
     {
-    .iv = 120,
+    .iv = 255,
     .lvl = 13,
     .species = SPECIES_BINACLE,
     }
